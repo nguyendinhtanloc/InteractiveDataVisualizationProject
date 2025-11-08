@@ -1,5 +1,6 @@
 # Flow setup và chạy Superset
 
+```text
 ┌───────────────────────────────┐
 │ Clone repository & tạo .env   │
 └─────────────┬─────────────────┘
@@ -42,9 +43,11 @@
              │ http://localhost:8088     │
              │ Login: admin / admin (.env) │
              └───────────────────────────┘
+```
 
 # Flow các lần chạy tiếp theo
 
+```text
 ┌───────────────────────────────┐
 │ Vào thư mục dự án             │
 └─────────────┬─────────────────┘
@@ -62,4 +65,4 @@
 │ Truy cập Superset             │
 │ http://localhost:8088         │
 └───────────────────────────────┘
-
+```
