@@ -2,7 +2,7 @@
 
 ## Giới thiệu
 
-Dự án này sử dụng **Apache Superset** để trực quan hóa dữ liệu từ **Supabase**. Người dùng có thể import cơ sở dữ liệu, tạo dashboard và khám phá dữ liệu một cách tương tác thông qua giao diện web.
+Dự án này sử dụng **Apache Superset** để trực quan hóa dữ liệu. Người dùng có thể phân tích EDA, tiền xử lý dữ liệu, upload CSV vào Superset, tạo dashboard và khám phá dữ liệu một cách tương tác thông qua giao diện web.
 
 ## Mục lục
 
@@ -29,9 +29,9 @@ Dự án này sử dụng **Apache Superset** để trực quan hóa dữ liệu
 ├── docker-compose.yml             # Cấu hình Docker Compose để chạy Superset
 ├── superset_config.py             # Cấu hình Superset cục bộ
 ├── requirements.txt               # Danh sách thư viện Python cần thiết
-├── docker-entrypoint-initdb.d     # Thư mục chứa script khởi tạo dữ liệu
-│   ├── import_supabase.py         # Script import dữ liệu từ Supabase
-│   └── supabase.json              # File dữ liệu mẫu từ Supabase
+├── EDA_Superstore.ipynb           # Notebook phân tích EDA
+├── data/
+│   └── Superstore.csv             # Dữ liệu thô
 ├── run-all.sh                     # Script tự động setup và khởi động hệ thống
 ├── .env.example                   # Mẫu file cấu hình môi trường
 └── README.md                      # Tài liệu hướng dẫn

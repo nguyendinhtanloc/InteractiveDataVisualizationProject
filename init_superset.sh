@@ -12,9 +12,6 @@ superset fab create-admin \
     --lastname Admin \
     --email admin@example.com
 
-# Import Supabase
-python /app/docker-entrypoint-initdb.d/import_supabase.py
-
 # Khởi tạo Superset
 superset init
 
